@@ -1,0 +1,14 @@
+<h1>Clinic Queue</h1>
+
+<a href="/add">Add Patient</a>
+
+<h2>Waiting List:</h2>
+
+<ul>
+  {% for patient in queue %}
+<li>
+  {{ patient.get_name() }} - {{ patient.get_time() }}
+</li>  {% endfor %}
+</ul>
+
+<p>Total patients today: {{ total }}</p>
