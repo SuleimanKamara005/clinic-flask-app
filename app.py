@@ -24,6 +24,8 @@ def add_patient():
 
        # update
    
+
+   
     if request.method == "POST":
         name = request.form.get("name")
         # UPDATE 1
