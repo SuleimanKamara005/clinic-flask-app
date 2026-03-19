@@ -18,6 +18,9 @@ def home():
 def add_patient():
     global patients_seen
    
+
+   
+       # update
    
     if request.method == "POST":
         name = request.form.get("name")
