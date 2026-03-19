@@ -17,7 +17,8 @@ def home():
 @app.route("/add", methods=["GET", "POST"])
 def add_patient():
     global patients_seen
-
+   
+   
     if request.method == "POST":
         name = request.form.get("name")
         # UPDATE 1
