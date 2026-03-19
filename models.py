@@ -10,6 +10,7 @@ class Patient:
         return self.name
  
  
+
     def get_time(self):
         return self.time
     def __init__(self, name):
