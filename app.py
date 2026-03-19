@@ -22,7 +22,7 @@ def add_patient():
         name = request.form.get("name")
         # UPDATE 1
         patient = Patient(name)
-
+        # update
         queue.append(patient)  # enqueue
 
         return redirect("/")
