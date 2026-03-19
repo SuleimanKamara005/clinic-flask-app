@@ -7,7 +7,7 @@ class Patient:
         self.time = datetime.now()
 
 
-
+    # update
 
     def get_name(self):
         return self.name
