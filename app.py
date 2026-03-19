@@ -18,7 +18,8 @@ def home():
 def add_patient():
     global patients_seen
     
-    
+
+
 
 
        # update
