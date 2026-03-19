@@ -8,7 +8,8 @@ class Patient:
 
     def get_name(self):
         return self.name
-
+ 
+ 
     def get_time(self):
         return self.time
     def __init__(self, name):
