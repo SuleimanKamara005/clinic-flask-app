@@ -17,9 +17,10 @@ def home():
 @app.route("/add", methods=["GET", "POST"])
 def add_patient():
     global patients_seen
-   
+    
+    
 
-   
+
        # update
    
     if request.method == "POST":
