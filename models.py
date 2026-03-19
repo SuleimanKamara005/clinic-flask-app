@@ -13,6 +13,6 @@ class Patient:
         return self.time
     def __init__(self, name):
         self.name = name
-
+    # update
     def get_name(self):
         return self
